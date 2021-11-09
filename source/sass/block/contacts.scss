@@ -1,0 +1,35 @@
+.contacts {
+  width: 352px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  border-left: 1px solid $input-border-color;
+  @media (min-width: $desktop-width) {
+    width: 400px;
+    
+  }
+  @media (min-width: $desktop-special){
+    padding-left: 65px;
+    border-right: 1px solid $input-border-color;
+    border-left: 1px solid $input-border-color;
+  }
+}
+
+.contacts__item {
+  display: flex;
+  font-size: 14px;
+  line-height: 17px;
+  color: $coral;
+  align-items: center;
+  margin-bottom: 23px;
+}
+
+.contacts__item--phone svg {
+  margin-right: 11px;
+}
+
+.contacts__item--email svg {
+  margin-right: 15px;
+}
+
+

@@ -1,0 +1,147 @@
+.tours-item {
+  margin-right: auto;
+  margin-left: auto;
+  padding: 30px 0;
+
+  @media (min-width: $desktop-width) {
+  margin-top: 65px;
+  display: grid;
+  grid-template-columns: 44.42% 55.58%;
+  margin-bottom: 100px;
+  min-width: 1024px;
+  max-width: 1170px;
+  }
+}
+
+.tours-item__heading {
+  text-align: center;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 150%;
+  color: $dark-gray;
+  margin-top: 0;
+
+  @media (min-width: $desktop-width) {
+  text-align: start;
+  font-size: 55px;
+  line-height: 90px;
+  margin-top: 15px;
+  }
+}
+
+.tours-item__description {
+  display: inline-block;
+  text-align: center;
+
+  @media (min-width: $desktop-width) {
+  text-align: start;
+  width: 390px;
+  margin-bottom: 50px;
+  }
+}
+
+.tours-item__button {
+  margin: 0 auto;
+  display: block;
+  background-color: $coral;
+  color: $white;
+  border: none;
+  width: 250px;
+  padding: 19px 15px;
+
+  @media (min-width: $desktop-width) {
+  margin: 0;
+  padding: 30px 15px;
+  }
+}
+
+.tours-item__button:hover {
+  background-color: $light-coral;
+}
+
+.tours-item__review-background-image {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  width: 320px;
+  height: 415px;
+
+  @media (min-width: $tablet-width) {
+    width: 767px;
+    max-width: 767px;
+    height: 415px;
+  }
+
+  @media (min-width: $desktop-width) {
+    transform: translateX(0);
+    width: 430px;
+    height: 596px;
+    top: 0;
+    left: 0;
+  }
+}
+
+.tours-item__review-container {
+  margin-top: 30px;
+  padding-top: 80px;
+  position: relative;
+  min-height: 415px;
+
+  @media (min-width: $desktop-width) {
+  margin-top: 0;
+  width: 588px;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  }
+}
+
+.tours-item__review {
+  margin: 0 auto ; 
+  background-color: $white;
+  position: relative;
+  display: block;
+  width: 382px;
+  z-index: 3;
+  padding: 30px;
+
+  @media (min-width: $desktop-width) {
+  margin-left: auto;
+  margin-right: 0;
+  background-color: $white;
+  position: relative;
+  display: block;
+  width: 382px;
+  z-index: 3;
+  padding: 30px;
+  }
+}
+
+.tours-item__review-text {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  color: $dark-gray;
+  margin-bottom: 33px;
+}
+
+.tours-item__review-main-text {
+  font-size: 14px;
+  margin-bottom: 35px;
+}
+
+.tours-item__review-author-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: $dark-gray;
+  margin-left: 16px;
+}
+
+.tours-item__review-author {
+  display: flex;
+  align-items: center;
+}

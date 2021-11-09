@@ -1,0 +1,10 @@
+.page-header {
+    display: block;
+    margin: 17px auto 17px;
+    position: relative;
+    @media (min-width: $desktop-width) {
+    margin: 36px auto 0;
+    min-width: 1024px;
+    max-width: 1290px;
+    }
+  }

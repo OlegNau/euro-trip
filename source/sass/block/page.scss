@@ -1,0 +1,99 @@
+.page {
+  height: 100%;
+  margin: 0 auto;
+  max-width: 1920px;
+}
+
+.page__input {
+  display: block;
+  height: 50px; 
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 1px solid $input-border-color;
+}
+
+.page__input:hover {
+  border-color: $coral;
+}
+
+.page__input--contacts-form {
+  width: 269px;
+}
+
+.page__input--popup {
+  width: 270px;
+  margin: 0 auto 20px;
+}
+
+.page__input::placeholder {
+  color: $placeholder-color;
+  opacity: 1;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.page__input--number::placeholder {
+  text-align: center;
+}
+
+.page__input--number {
+  position: relative;
+  z-index: 1;
+}
+
+.page__input--number-container {
+  position: relative;
+  width: 270px;
+  margin: 0 auto;
+}
+
+.page__input--error::before {
+  content: "Данные не верны";
+  display: inline-block;
+  position: absolute;
+  color: $coral;
+  top: -15px;
+  left: 0px;
+  font-size: 12px;
+  line-height: 15px;
+  z-index: 5;
+}
+
+.page__input--number-container::after {
+  content: "*";
+  display: block;
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  color: $coral;
+  top: 7px;
+  left: 19px;
+  z-index: 5;
+}
+
+.page__send-button {
+  margin-top: 25px;
+  min-width: 176px;
+  max-width: 270px;
+  margin: 0 auto;
+  display: inline-block;
+  background-color: $coral;
+  color: $white;
+  border: none;
+  padding: 18px 15px;
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 600;
+}
+
+.page__send-button:hover {
+  background-color: $light-coral;
+}
+
+.page--hidden {
+  display: none;
+}
+
+.page-main__form-container .page__send-button {
+  margin-top: 25px;
+}

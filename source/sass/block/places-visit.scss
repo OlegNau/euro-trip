@@ -1,0 +1,38 @@
+.places-visit {
+  padding: 200px 56px 0;
+  margin: 0 auto;
+  
+  @media (min-width: $desktop-width) {
+  padding: 200px 60px 0;
+  min-width: 1024px;
+  max-width: 1920px;
+  }
+}
+
+.places-visit__heading-container {
+  margin: 0 auto;
+  padding: 0px;
+  min-width: 768px;
+  text-align: center;
+
+  @media (min-width: $desktop-width) {
+  max-width: 1290px;
+  min-width: 1024px;
+  margin: 0 auto;
+  padding: 0 60px;
+  text-align: start;
+  }
+}
+
+.places-visit__list {
+  margin: 0 auto;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  @media (min-width: $desktop-width) {
+  max-width: 1230px;
+  }
+}

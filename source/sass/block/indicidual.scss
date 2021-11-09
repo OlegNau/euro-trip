@@ -1,0 +1,23 @@
+.individual {
+  margin-top: 30px;
+  padding-top: 30px;
+  text-align: center;
+  width: 100%;
+  border-top: 1px solid $input-border-color;
+
+  @media (min-width: $desktop-width) {
+    border-top: none;
+    margin-top: 0;
+    width: 1024px;
+    padding: 50px 60px 55px 60px;
+  }
+  @media (min-width: $desktop-special){
+    text-align: start;
+    width: 385px;
+    padding: 0 0 0 55px;
+  }
+}
+
+.individual p {
+  margin: 0;
+}

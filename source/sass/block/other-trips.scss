@@ -1,0 +1,24 @@
+.other-trips {
+  width: 384px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.other-trips__list {
+  width: 100px;
+  list-style: none;
+  padding: 0;
+  margin-right: 25px;
+  margin-top: 0;
+}
+
+.other-trips__list:last-child {
+  margin-right: 30px;
+}
+
+.other-trips__item-link {
+  font-size: 14px;
+  line-height: 17px;
+  color: $black-transparent;
+}

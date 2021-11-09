@@ -1,0 +1,64 @@
+.tours {
+
+  padding-left: 60px;
+  padding-right: 60px;
+  margin: 0 auto;
+  
+  @media (min-width: $desktop-width) {                                                                                                                                                                     
+  max-width: 1290px;
+  background-image: url("../img/map-background.svg");
+  background-repeat: no-repeat;
+  background-position: 0 104px;
+  }
+}
+
+.tours__navigation {
+  list-style: none;
+  display: flex;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 0;
+
+  @media (min-width: $desktop-width) {
+  
+  flex-wrap: wrap;
+  max-width: 1170px;
+  
+  }
+}
+
+.tours__navigation-item {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 99px;
+  border-bottom: 1px solid $light-blue;
+}
+
+.tours__navigation-item-link {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: $light-blue;
+}
+
+.tours__navigation-item-link:hover {
+  color: $coral;
+}
+
+.tours__navigation-item:last-child {
+  padding-right: 0px;
+}
+
+.tours__items {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 30px 21px 0;
+  list-style: none;
+
+  @media (min-width: $desktop-width) {
+ 
+  padding: 0;
+  }
+}

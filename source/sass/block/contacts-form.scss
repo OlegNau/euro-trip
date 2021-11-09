@@ -1,0 +1,37 @@
+.contacts-form {
+  width: 656px;
+  min-height: 315px;
+  background-color: $white;
+  margin: 0 auto;
+  padding: 50px;
+  text-align: center;
+  box-shadow: 0px 4px 30px $shadow-color;
+  
+  @media (min-width: $desktop-width) {
+  margin-right: 0;
+  margin-left: auto;
+  }
+}
+
+.contacts-form__heading {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 32px;
+  color: $black;
+  margin: 0;
+}
+
+.contacts-form__offer {
+  font-size: 16px;
+  line-height: 150%;
+  color: $black;
+}
+
+.contacts-form__input-container {
+  display: flex;
+  justify-content: space-between;
+}
+.contacts-form__input {
+  position: relative;
+  display: block ;
+}

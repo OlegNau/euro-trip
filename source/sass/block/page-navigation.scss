@@ -1,0 +1,128 @@
+.page-navigation {
+  display: flex;
+  max-width: 1290px;
+  margin: 0 auto;
+  padding: 0 60px;
+}
+
+.page-navigation__elements {
+  list-style: none;
+  width: 320px;
+  min-height: 568px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 104px;
+  position: absolute;
+  z-index: 4;
+  top: -17px;
+  right: 0;
+  background-color: $white;
+  padding-left: 0;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  color: $placeholder-color;
+  @media (min-width: $desktop-width) {
+  position: relative;
+  top: 0;
+  right: 0;
+  padding-top: 0;
+  min-height: 0;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-left: auto;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 500;
+  max-width: 770px;
+  flex-wrap: wrap;
+  margin-top: 0;
+  margin-bottom: 0;
+  }
+}
+
+.page-navigation__element {
+  margin-top: 30px;
+  background-color: $extra-light-coral;
+  padding: 17px 16px 17px 16px;
+  @media (min-width: $desktop-width) {
+  padding: 5px 0;
+  margin-bottom: 32px;
+  margin-top: 0;
+  margin-left: 40px;
+  background-color: transparent;
+  }
+}
+
+.page-navigation__element-link {
+  color: $black;
+}
+
+.page-navigation__element-link:hover {
+  color: $coral;
+}
+
+.page-navigation__phone {
+  display: none;
+  @media (min-width: $desktop-width) {
+  color: $black; 
+  text-decoration: underline;
+  padding-left: 38px;
+  margin-left: 70px;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  }
+}
+
+.page-navigation__phone::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-image: url("../img/phone.svg");
+  background-repeat: no-repeat;
+  left: 0;
+  top: 0;
+}
+
+.page-navigation__phone:hover {
+  color: $coral;
+}
+
+.page-navigation__phone:hover::before {
+  background-image: url("../img/phone-coral.svg");
+}
+
+.page-navigation__logo {
+  width: 100px;
+  margin-right: auto;
+}
+
+.page-navigation__toggle--open {
+  top: -17px;
+  right: 0px;
+  background-color: $coral;
+  border: none;
+  background-image: url("../img/menu.svg");
+}
+
+.page-navigation__toggle {
+  width:72px;
+  height: 50px;
+  z-index: 5;
+  position: absolute;
+  top: -2px;
+  right: 15px;
+  background-color: $white;
+  background-image: url("../img/popup/close-icon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 22px;
+  height: 22px;
+  border: none;
+  @media (min-width: $desktop-width) {
+    display: none;
+  }
+}

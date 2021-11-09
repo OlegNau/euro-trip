@@ -1,3 +1,20 @@
-h1 {
-  color: red;
-}
+@import "./fonts.scss";
+@import "./normalize.scss";
+@import "./variables.scss";
+@import "./global.scss";
+@import "./block/page-navigation.scss";
+@import "./block/page-header.scss";
+@import "./block/page-main.scss";
+@import "./block/start-block.scss";
+@import "./block/places-visit-item.scss";
+@import "./block/tours.scss";
+@import "./block/tours-item.scss";
+@import "./block/tariff.scss";
+@import "./block/contacts-form.scss";
+@import "./block/page-footer.scss";
+@import "./block/other-trips.scss";
+@import "./block/contacts.scss";
+@import "./block/indicidual.scss";
+@import "./block/popup.scss";
+@import "./block/page.scss";
+@import "./block/places-visit.scss";

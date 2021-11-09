@@ -1,0 +1,36 @@
+.popup {
+  z-index: 6;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+  width: 728px;
+  padding: 20px 20px 49px 358px ;
+  display: flex;
+  flex-direction: column;
+  background-image: url("../img/popup/popup.jpg");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-color: $extra-light-coral;
+}
+
+.popup__close-button {
+  border: none;
+  background-color: transparent;
+  background-image: url("../img/popup/close-icon.svg");
+  width: 24px;
+  height: 24px;
+  margin-left: auto;
+}
+
+.popup__close-button:hover {
+  background-image: url("../img/popup/close-icon-hover.svg");
+}
+
+.popup__heading {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 170%;
+  margin: 30px auto 50px auto;
+}
+

@@ -1,0 +1,171 @@
+
+
+.page-main__discription {
+  margin: 0 auto;
+  width: 350px;
+  margin-bottom: 55px;
+
+  @media (min-width: $desktop-width) {
+    margin-left: 0;
+    width: 350px;
+  }
+}
+
+.page-main__price-container {
+  margin: 0 auto 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  @media (min-width: $desktop-width) {
+  max-width: 1290px;
+  margin: 234px auto 0;
+  }
+}
+
+.page-main__price-heading-container {
+  padding-top: 30px;
+  margin: 0 auto;
+  text-align: center;
+
+  @media (min-width: $desktop-width) {
+    order: 0;
+    padding-left: 0;
+    padding-top: 72px;
+  }
+  @media (min-width: $desktop-special){
+    text-align: start;
+    order: 3;
+    padding-left: 60px;
+    width: 360px;
+  }
+}
+
+.page-main__section-heading {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 150%; 
+  margin: 0;
+
+  @media (min-width: $desktop-width) {
+
+  font-size: 55px;
+  line-height: 80px;
+  color: $dark-gray;
+  margin: 0;
+  }
+}
+
+.page-main__price-discription {
+  text-align: center;
+
+  @media (min-width: $desktop-width) {
+  text-align: start;
+  font-size: 16px;
+  line-height: 170%;
+  margin-bottom: 60px;
+  margin-top: 53px;
+  }
+}
+
+.page-main__price-heading-container .page-main__section-heading {
+  @media (min-width: $desktop-width) {
+  margin-bottom: 0;
+  margin-right: 5px;
+  position: relative;
+  display: inline-block;
+  }
+}
+
+.page-main__price-heading-container .page-main__section-heading::after {
+  @media (min-width: $desktop-width) {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -25px;
+  left: 0px;
+  width: 175px;
+  height: 1px;
+  background-color: $coral;
+  }
+}
+
+.page-main__write-to-us {
+  display: block;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 34px;
+  color: $black;
+
+  @media (min-width: $desktop-width) {
+  text-align: start;
+  font-size: 22px;
+  margin-left: 48px;
+  }
+}
+
+.page-main__price-phone {
+  text-align: center;
+  font-size: 18px;
+  line-height: 32px;
+  color: $black;
+  margin-left: 0;
+  color: $coral;
+
+  @media (min-width: $desktop-width) {
+  color: $black;
+  text-align: start;
+  display: flex;
+  font-size: 20px;
+  }
+}
+
+.page-main__price-phone svg {
+  display: none;
+
+  @media (min-width: $desktop-width) {
+  display: block;
+  margin-right: 20px;
+  }
+}
+
+.page-main__form-container {
+  padding: 0 60px;
+  margin: 140px auto 160px;
+  background-color: $white;
+  background-image: url("../img/contacts-form-background/contacts-form-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 455px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @media (min-width: $desktop-width) {
+  max-width: 1290px;
+  padding: 0 60px;
+  margin: 140px auto 160px;
+  background-color: $white;
+  background-image: url("../img/contacts-form-background/contacts-form-background.jpg");
+  background-repeat: no-repeat;
+  background-position: 60px 0;
+  min-height: 455px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  }
+}
+
+.page-main__tariffs-container {
+  padding: 0 11px;
+  display: flex;
+  justify-content: space-between;
+
+  @media (min-width: $desktop-width) {
+    padding: 0;
+    margin: 30px auto;
+  }
+  @media (min-width: $desktop-special){
+    margin-right: 30px;
+  }
+}
